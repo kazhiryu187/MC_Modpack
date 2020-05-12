@@ -2,9 +2,11 @@ print("---------- This is BioF script ----------");
 
 <ore:bioproducts>.add(<minecraft:apple>);
 <ore:bioproducts>.add(<minecraft:rotten_flesh>);
+
 <ore:bioproducts>.addAll(<ore:treeSapling>);
 <ore:bioproducts>.addAll(<ore:seed>);
 <ore:bioproducts>.addAll(<ore:treeLeaves>);
+
 <ore:bioproducts>.add(<minecraft:tallgrass:1>);
 <ore:bioproducts>.add(<minecraft:tallgrass:2>);
 <ore:bioproducts>.add(<minecraft:double_plant>);
@@ -19,7 +21,9 @@ print("---------- This is BioF script ----------");
 <ore:bioproducts>.add(<minecraft:pumpkin_seeds>);
 <ore:bioproducts>.add(<minecraft:melon_seeds>);
 <ore:bioproducts>.add(<minecraft:beetroot_seeds>);
+
 <ore:bioproducts>.add(<immersiveengineering:seed>);
+
 <ore:bioproducts>.add(<minecraft:wheat>);
 <ore:bioproducts>.add(<minecraft:pumpkin>);
 <ore:bioproducts>.add(<minecraft:melon>);
@@ -37,4 +41,5 @@ print("---------- This is BioF script ----------");
 <ore:bioproducts>.add(<minecraft:brown_mushroom>);
 <ore:bioproducts>.add(<minecraft:red_mushroom>);
 <ore:bioproducts>.add(<minecraft:poisonous_potato>);
+
 <ore:bioproducts>.add(<immersiveengineering:material:4>);
