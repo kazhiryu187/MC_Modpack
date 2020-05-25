@@ -13,10 +13,18 @@ var GDS = <ghostsexplosives:dust_sulfur>;
 
 SulfurDust.add(GDS);
 
-recipes.addShaped("GP6", gunp*6,
+recipes.addShaped("GP1", gunp*8,
  [[pcoal,sul,],
   [msalt,msalt]]);
 
-recipes.addShaped("GPP6", gunp*6,
+recipes.addShaped("GP2", gunp*8,
  [[sul,pn,],
   [pn,pcoal]]);
+
+recipes.addShaped("GGP1", gunp*8,
+ [[GDS,pn,],
+  [pn,pcoal]]);
+
+recipes.addShaped("GGP2", gunp*8,
+ [[pcoal,GDS,],
+  [msalt,msalt]]);
